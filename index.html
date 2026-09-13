@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>شاورما أنغام</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      line-height: 1.7;
+    }
+
+    header {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px 20px;
+      background:
+        linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.85)),
+        linear-gradient(135deg, #8b1e1e, #171717);
+    }
+
+    .hero {
+      max-width: 700px;
+    }
+
+    .logo {
+      font-size: 70px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 45px;
+      color: #ffb52e;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      color: #ddd;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 13px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      background: #ffb52e;
+      color: #111;
+    }
+
+    .button.dark {
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 32px;
+      color: #ffb52e;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      max-width: 1000px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: #1c1c1c;
+      padding: 25px;
+      border-radius: 18px;
+      border: 1px solid #333;
+    }
+
+    .item h3 {
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .price {
+      color: #ffb52e;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .price span {
+      color: #ddd;
+      font-size: 15px;
+      font-weight: normal;
+    }
+
+    .contact {
+      background: #191919;
+    }
+
+    .contact p {
+      margin: 10px 0;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #888;
+      background: #0b0b0b;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      .hero h2 {
+        font-size: 20px;
+      }
+
+      .logo {
+        font-size: 55px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+
+      <div class="logo">🌯</div>
+
+      <h1>شاورما أنغام</h1>
+
+      <h2>ألذ شاورما تستاهل التجربة</h2>
+
+      <p>
+        طعم مميز وجودة تستاهل التجربة ❤️
+      </p>
+
+      <div class="buttons">
+        <a href="#menu" class="button">شوف المنيو</a>
+
+        <a
+          href="https://wa.me/966568685824"
+          class="button dark"
+        >
+          اطلب واتساب
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+
+  <section id="menu">
+
+    <h2 class="section-title">🍽️ المنيو</h2>
+
+    <div class="menu">
+
+      <div class="item">
+        <h3>شاورما صغير</h3>
+        <div class="price">6 ريال <span>| مع جبنة 7 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>شاورما كبير</h3>
+        <div class="price">8 ريال <span>| مع جبنة 9 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>شامي</h3>
+        <div class="price">6 ريال <span>| مع جبنة 7 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>صحن عربي صغير</h3>
+        <div class="price">12 ريال <span>| مع جبنة 13 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>صحن عربي كبير</h3>
+        <div class="price">17 ريال <span>| مع جبنة 19 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>صحن عربي وجبة</h3>
+        <div class="price">20 ريال <span>| مع جبنة 21 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>شاورما فرط</h3>
+        <div class="price">24 ريال <span>| مع جبنة 25 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>جكن فرائز</h3>
+        <div class="price">19 ريال <span>| مع جبنة 20 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>باشكا تورتيلا</h3>
+        <div class="price">17 ريال <span>| مع جبنة 18 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>باشكا إيطالي</h3>
+        <div class="price">20 ريال <span>| مع جبنة 21 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>برجر دجاج</h3>
+        <div class="price">8 ريال <span>| مع جبنة 9 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>برجر لحم</h3>
+        <div class="price">8 ريال <span>| مع جبنة 9 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>برجر زنجر</h3>
+        <div class="price">9 ريال <span>| مع جبنة 10 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>وجبة برجر دجاج</h3>
+        <div class="price">15 ريال <span>| مع جبنة 16 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>وجبة برجر لحم</h3>
+        <div class="price">15 ريال <span>| مع جبنة 16 ريال</span></div>
+      </div>
+
+      <div class="item">
+        <h3>وجبة برجر زنجر</h3>
+        <div class="price">16 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>بطاطس صغير</h3>
+        <div class="price">4 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>بطاطس كبير</h3>
+        <div class="price">7 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>صوص ثوم</h3>
+        <div class="price">1 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>صوص كوكتيل</h3>
+        <div class="price">1 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>صوص جبنة</h3>
+        <div class="price">1 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>عصيرات غازية</h3>
+        <div class="price">1 - 1.5 ريال</div>
+      </div>
+
+      <div class="item">
+        <h3>عصيرات جاهزة</h3>
+        <div class="price">2 ريال</div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="contact" id="contact">
+
+    <h2 class="section-title">📞 تواصل معنا</h2>
+
+    <p>للطلب: <strong>0568685824</strong></p>
+
+    <p>للتوصيل: <strong>0544096380</strong></p>
+
+    <br>
+
+    <div class="buttons">
+
+      <a
+        href="https://wa.me/966568685824"
+        class="button"
+      >
+        طلب عبر واتساب
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 شاورما أنغام — جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
